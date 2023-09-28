@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Typography</title>
+        <style>
+            * {
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            body {
+                display:flex;
+                margin:2vh;
+            }
+
+            h1 {
+                font-size:8rem;
+                margin-bottom:0;
+            }
+
+            main {
+                margin:auto;
+                width:60%;
+            }
+
+            h3 {
+                font-size:3rem;
+            }
+
+            section {
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                gap:2vh;
+            }
+
+            section span {
+                background-color:white;
+                border-radius:1vh;
+                text-align:center;
+                padding:4vh 2vh;
+                color:black;
+                font-size:2rem;
+            }
+
+            section span:first-of-type {
+                font-family:Serif;
+            }
+
+            section span:nth-of-type(2) {
+                font-family:sans-serif;
+            }
+
+            section span:nth-of-type(3) {
+                font-family:cursive;
+            }
+
+            section span:nth-of-type(4) {
+                font-family:fantasy;
+            }
+
+            section span:nth-of-type(5) {
+                font-family:monospace;
+            }
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>CSS Typography</h1>
+            <hr align="center" width="50%">
+            <article>
+                <h3>Font Families</h3>
+                <section>
+                    <span>
+                        Serif
+                    </span>
+                    <span>
+                        Sans Serif
+                    </span>
+                    <span>
+                        Cursive
+                    </span>
+                    <span>
+                        Fantasy
+                    </span>
+                    <span>
+                        Monospace
+                    </span>
+                </section>
+            </article>
+        </main>
+
+    </body>
+</html>
