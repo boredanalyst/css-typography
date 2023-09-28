@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Typography</title>
+        <style>
+            * {
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            body {
+                display:flex;
+                margin:2vh;
+            }
+
+            h1 {
+                font-size:8rem;
+                margin-bottom:0;
+                font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+            }
+
+            main {
+                margin:auto;
+                width:60%;
+            }
+
+            h3 {
+                font-size:3rem;
+            }
+
+            section {
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                gap:2vh;
+            }
+
+            section span {
+                background-color:white;
+                border-radius:1vh;
+                text-align:center;
+                padding:4vh 2vh;
+                color:black;
+                font-size:2rem;
+            }
+
+            section span:first-of-type {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            section span:nth-of-type(2) {
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            section span:nth-of-type(3) {
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>CSS Typography</h1>
+            <hr align="center" width="50%">
+            <article>
+                <h3>Font Families</h3>
+                <section>
+                    <span>
+                        I am a text.
+                    </span>
+                    <span>
+                        I am a text.
+                    </span>
+                    <span>
+                        I am a text.
+                    </span>
+                </section>
+            </article>
+        </main>
+
+    </body>
+</html>
