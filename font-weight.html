@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Typography</title>
+        <style>
+            * {
+                font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+                transition: all ease-in-out 130ms;
+            }
+
+            body {
+                display:flex;
+                margin:2vh;
+            }
+
+            h1 {
+                font-size:8rem;
+                margin-bottom:0;
+                font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+            }
+
+            main {
+                margin:auto;
+                width:60%;
+            }
+
+            h3 {
+                font-size:3rem;
+            }
+
+            section {
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                gap:2vh;
+            }
+
+            section span {
+                background-color:white;
+                border-radius:1vh;
+                text-align:center;
+                padding:4vh 2vh;
+                color:black;
+                line-height:3rem;
+                font-weight:normal;
+                font-size:1.5rem;
+            }
+
+            section span:hover {
+                font-weight:bold;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>CSS Typography</h1>
+            <hr align="center" width="50%">
+            <article>
+                <h3>Line Height</h3>
+                <section>
+                    <span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto reprehenderit dolorum libero eum, exercitationem quod voluptatibus adipisci, amet odio, saepe est facilis voluptatum dolore molestias atque ducimus tempora necessitatibus accusamus!
+                    </span>
+                </section>
+            </article>
+        </main>
+
+    </body>
+</html>
